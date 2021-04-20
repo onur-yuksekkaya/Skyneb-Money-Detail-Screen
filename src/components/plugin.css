@@ -1,0 +1,141 @@
+.price-list input { 
+    background-color: #2a2e39;
+    border: none;
+    color: white!important;
+    padding: 5px;
+}
+
+.price-list input::placeholder{ 
+    color: rgb(182, 182, 182)!important;
+    background-image: url('./search-solid.svg');
+    background-position: 0%;
+    background-size: 6% 80%;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.coin-list { 
+    background-color: #1c2031;
+    color:white;
+    padding-top: 5px;
+    font-size: 0.8rem;
+    margin-bottom: -10px;
+}
+
+.active { 
+    color: white;
+}
+
+.disabled { 
+    color: rgb(124, 124, 124);
+}
+
+.coins { 
+    background-color:#131722;
+    font-size: 0.8rem;
+    margin-bottom:-10px!important;
+}
+
+.not-stonks {
+    color: red;
+}
+
+.stonks { 
+    color:green;
+}
+
+.bottom  {
+    border-bottom: 1px solid rgb(77, 77, 77);
+    font-size: 0.7rem;
+}
+
+/*Market News */
+
+.purchase-list { 
+    color:white;
+    font-size: 0.8rem;
+}
+
+.market-header { 
+    background-color:#2a2e39;
+    color:white;
+    padding-top:3px;
+    font-size: 1rem;
+}
+
+.market-title { 
+    color:rgb(238, 238, 238);
+    margin-top: 1rem;
+    font-size: 0.7rem;
+  
+}
+
+.market-body  {
+    color:rgb(179, 179, 179);
+    margin-top: -1%;
+    font-size: 0.7rem;
+    margin-top:-10px;
+
+}
+
+.market-date { 
+    background-color:#2a2e39;
+    color:rgb(201, 201, 201);
+    font-size: 0.7rem;
+    margin-top:-10px;
+}
+
+
+.badges { 
+    color: white;
+    background-color:rgb(58, 58, 58);
+    padding:7px;
+    cursor:pointer;
+}
+
+.white { 
+    color:white;
+}
+
+.purchase { 
+    border:none;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.grandient-75 { 
+    background: rgb(24,28,39);
+    background: linear-gradient(90deg, rgba(24,28,39,1) 25%, rgb(235, 65, 65) 25%);
+}
+
+.grandient-50 { 
+    background: rgb(24,28,39);
+    background: linear-gradient(90deg, rgba(24,28,39,1) 50%, rgb(235, 65, 65) 50%);
+}
+
+.grandient-25 { 
+    background: rgb(24,28,39);
+    background: linear-gradient(90deg, rgba(24,28,39,1) 75%, rgb(235, 65, 65) 75%);;
+}
+
+.marginbottom { 
+    margin-top: -17px!important;
+}
+
+.grandienty-25 {
+    background: rgb(24,28,39);
+    background: linear-gradient(90deg, rgba(24,28,39,1) 75%, rgba(0,255,81,1) 75%);
+}
+
+.grandienty-50 {
+    background: rgb(24,28,39);
+    background: linear-gradient(90deg, rgba(24,28,39,1) 50%, rgba(0,255,81,1) 50%);
+}
+.grandienty-75 {
+    background: rgb(24,28,39);
+    background: linear-gradient(90deg, rgba(24,28,39,1) 25%, rgba(0,255,81,1) 25%);
+}
+
+tr  {
+    border-bottom: 1px solid gray;
+}
